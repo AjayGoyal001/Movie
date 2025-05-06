@@ -103,10 +103,6 @@ const DetailsPage = () => {
                 <span className="text-white">Released Date</span>:{" "}
                 {moment(data?.release_date).format("MMMM Do YYYY")}
               </p>
-              <span>|</span>
-              <p>
-                <span className="text-white">Revenue</span>: {data?.revenue}
-              </p>
             </div>
 
             <Divider />
